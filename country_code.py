@@ -1,0 +1,11 @@
+country_code = {"india":"0091","australia":"0025","nepal":"00977","united states":"0001","canada":"0001","united kingdom":"0044"}
+print("country code for india -")
+print(country_code.get("india","not found"))
+print("country code for japan - ")
+print(country_code.get("japan","not found"))
+print("country code for united states -")
+print(country_code.get("united states","not found"))
+print("country code for canada -")
+print(country_code.get("canada","not found"))
+print("country code for united kingdom -")
+print(country_code.get("united kingdom","not found"))
